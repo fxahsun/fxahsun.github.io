@@ -1,0 +1,188 @@
+.muhin_bg{ background-image: url(../img/bg.png); height: 400px;}
+.headers{padding-top: 30px;}
+.header_area{}
+.logo{ font-size: 15px; color: gray;margin-left:-15px;}
+.logo p{margin: 0;padding: 0;}
+.social_icon{ font-size: 20px; margin-left: 80%; }
+.social_icon a{ color: gray; padding-left: 5px}
+.carousel-inner > .item >img{width:100%; margin:auto;}
+.carousel-inner {
+    position: relative;
+    width: 98%;
+    overflow: hidden;
+}
+.carousel-indicators{bottom: -40px;}
+.carousel-indicators li{background-color: gray;}
+.carousel-indicators .active{
+    background-color: black;
+}
+
+.sliders{ }
+#myslider{margin-top: 40px;}
+.muhin{}
+.title_wc{ margin-top: 15%; }
+.title_wc h1{ font-size: 55px; }
+.news_a{margin-top: 15%; }
+.news_t{font-size: 25px;}
+.news_t span{ margin-left: 7px;font-weight: bold;}
+.news_d{}
+
+.news_d p {
+    font-size: 19px;
+    line-height: 35px;
+}
+
+.picture_area{ background-image: url(../img/bg.png); height: 825px;}
+.picture{margin-top:50px;}
+.picture img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+.s_picture{}
+.s_picture img{position: relative;}
+.s_picture_text {
+    position: absolute;
+    width: 94%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.52);
+    bottom: 27px;
+}
+.s_picture_text p {
+    padding: 12px;
+    font-size: 20px;
+    color: #e6dddd;
+}
+.c_form {
+    margin-top: 15%;
+}
+.form-control {
+    height: 65px;
+    font-size: 22px;
+    background-color: rgba(221, 221, 221, 0.56);}
+textarea.form-control {
+    height: 255px;
+}
+.btn-default {
+    background-color: rgba(204, 204, 204, 0.49);
+}
+.btn-default {
+    color: #333;
+    background-color: rgba(204, 204, 204, 0.49);
+
+}
+.btn{font-size: 25px;}
+.con_area{ margin-top: 80px; }
+.p_pic{}
+.profile{}
+.con_area h3{}
+.con_area p {
+    font-size: 15px;
+}
+.c_add{margin-top: 30px;}
+.c_add i{font-size: 21px;}
+.l_text{}
+.l_text i{font-weight: bold;word-spacing: 10px;}
+.l_text i span {
+    font-style: normal;
+    font-weight: normal;
+    word-spacing: 0px;
+}
+.footer_a{margin-top: 60px;}
+hr {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #555;
+}
+.footer_text {
+    font-size: 20px;
+}
+
+
+
+/*responsive*/
+/*@media screen and (min-width: 360px){
+ 	.logo {text-align: center;}
+     .social_icon{text-align: center; margin-left: 2%;}
+
+    }*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+.social_icon {
+    font-size: 20px;
+    margin-left: 36%;
+}
+.logo {
+   text-align: center;}
+   .muhin_bg{ background-image: url(../img/bg.png); height: 200px;}
+   .title_wc h2{ font-size: 15px; }
+   .title_wc h1{ font-size: 20px; }
+   .title_wc {margin-top: -1%;}
+   .news_a {text-align: center;}
+   .news_t {font-size: 15px;}
+   .news_d p {
+    font-size: 12px;
+    line-height: 30px;}
+    .s_picture_text p {
+    padding: 0px;
+    font-size: 15px;}
+    .s_picture_text {
+    width: 92%;}
+    .picture_area {
+    height: 100%;}
+    .btn {
+    margin-left: 35%;}
+    .p_pic {
+    margin-left: 24.5%;}
+    .profile {
+    text-align: center;}
+    .c_add{text-align: center;}
+    .footer_text {
+    font-size: 13px;
+    text-align: center;}
+    .c_add i {
+    font-size: 12px;
+}
+}
+
+
+
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 1280px) {
+	.social_icon {
+    margin-left: 69%;
+}
+.muhin_bg{ background-image: url(../img/bg.png); height: 300px;}
+.title_wc h1 {font-size: 50px;}
+.news_t {font-size: 20px;}
+.news_d p {
+    font-size: 20px;
+    line-height: 26px;
+}
+.s_picture_text p {
+    padding: 5px;
+    font-size: 15px;
+}
+    .s_picture_text {width: 92%;}
+    .picture_area {height: 555px;}
+    .con_area h3 {
+    font-size: 15px;}
+    .con_area p {
+    font-size: 10px;}
+    .c_add i {
+    font-size: 15px;}
+.form-control {
+    height: 30px;
+    font-size: 15px;}
+    .c_form {
+    margin-top: 24%;}
+    textarea.form-control {
+    height: 130px;}
+    .btn {
+    font-size: 12px;}
+    .footer_text {
+    font-size: 16px;
+}
+}
